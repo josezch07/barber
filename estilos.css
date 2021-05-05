@@ -108,6 +108,15 @@ nav ul li a{
         margin-bottom: 30px;
         
     }
+.single-service:hover .service-desc{
+        bottom: 15%;
+        opacity: 1;
+    }
+    .service-desc h3{
+       font-size: 20px;
+    }
+    
+    
     .service-box{
         flex-direction:column ;
     }
@@ -129,6 +138,10 @@ nav ul li a{
     }
     .footer-img{
         top: 25px;
+    }
+    .single-service:hover .service-desc{
+        bottom:10%;
+        opacity: 1;
     }
     
     
@@ -275,7 +288,7 @@ hr{
 
 }
 .single-service:hover .service-desc{
-    bottom: 40%;
+    bottom: 25%;
     opacity: 1;
 }
 #testimonia{
